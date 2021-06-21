@@ -7,8 +7,8 @@ const Stack = createStackNavigator();
 export default function MainNavigator(){
   return(
       <Stack.Navigator>
-        <Stack.Screen name="Main" component={Main} />
         <Stack.Screen name="Authentication" component={Authentication}/>
+        <Stack.Screen name="Main" component={Main} />
       </Stack.Navigator>
   )
 }
